@@ -95,7 +95,7 @@ public class UnclosedResourcesCheck extends SECheck {
   private final Set<Tree> knownResources = new HashSet<>();
   private Type visitedMethodOwnerType;
 
-  private static final Pattern METHOD_NAMES_OPENING_RESOURCES = Pattern.compile("(new|create|open).*");
+  private static final Pattern METHOD_NAMES_OPENING_RESOURCES = Pattern.compile("(new|create|open|getOutputStream).*");
 
   private static final String JAVA_IO_AUTO_CLOSEABLE = "java.lang.AutoCloseable";
   private static final String JAVA_IO_CLOSEABLE = "java.io.Closeable";

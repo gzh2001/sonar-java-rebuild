@@ -141,8 +141,8 @@
         </os>
       </activation>
       <properties>
-        <openjdk8.url>https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u265-b01/OpenJDK8U-jre_x86-32_windows_hotspot_8u265b01.zip</openjdk8.url>
-        <openjdk8.sha256>1d1624afe2aaa811e2bf09fb1c432f3f0ad4b8a7b6243db2245390f1b59a17cf</openjdk8.sha256>
+        <openjdk8.url>https://mirror.nju.edu.cn/adoptium/8/jre/x64/windows/OpenJDK8U-jre_x64_windows_hotspot_8u462b08.zip</openjdk8.url>
+        <openjdk8.sha256>8d054a725082607bc20af5777aff867bf94bb3b78bb523aed2caf0dcf22b8d03</openjdk8.sha256>
       </properties>
     </profile>
     <profile>
